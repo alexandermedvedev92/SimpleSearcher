@@ -8,5 +8,5 @@ public interface RankingService
      * @param initialSize is count of words which we need to search
      * @return rank
      */
-    String calculateRank(int currentSize, int initialSize);
+    float calculateRank(int currentSize, int initialSize);
 }
